@@ -1,0 +1,24 @@
+.btn-res, 
+.btn-con{
+    display: block;
+    width: 15rem;
+    border-radius: 100px;
+    background-color: $font-color;
+    color: $color-white;
+    margin-bottom: 1rem;
+    height: 4rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: $default-font-size;
+    padding: .8rem;
+
+    &:hover{
+    background-color: darken($font-color, 15%);
+    }
+}
+
+.btn-res{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}

@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /*100% is 16 pixels, so here we have 10px font-size */
+}
+
+body {
+    box-sizing: border-box;
+    color: $color-white;
+}

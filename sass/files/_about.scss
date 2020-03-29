@@ -1,0 +1,19 @@
+.about-image {
+    height: 30%;
+    width: 100%;
+    margin-top: $large-margin;
+}
+
+.about-list-items{
+    list-style: none;
+    font-size: $default-font-size;
+    color: grey;
+
+    li{
+        margin-bottom: 1rem;
+    }
+}
+
+.about-div{
+    text-align: center;
+}

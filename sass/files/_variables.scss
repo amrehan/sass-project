@@ -1,0 +1,24 @@
+//COLORS
+
+$color-primary: #e0ebe8;
+$color-white: #fff;
+$color-black: #000;
+
+//FONT
+
+$default-font-size: 2rem;
+$font-color: #00bdaa;
+$font-grey: grey;
+
+//margins
+
+$large-margin: 8rem;
+$medium-margin: 4rem;
+$small-margin: 2rem;
+
+@mixin clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    
+}

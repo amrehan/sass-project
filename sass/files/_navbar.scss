@@ -1,0 +1,22 @@
+.navigation{
+    max-width: 130rem;
+
+ 
+}
+
+
+.navigation-list{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.navigation-item{
+    font-size: $default-font-size;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 3rem;
+    float: right;
+    
+    &:hover{
+        color: darken($font-color, 15%)
+    }
+}

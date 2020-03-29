@@ -1,0 +1,16 @@
+footer{
+    height: 15vh;
+    color: $font-color;
+    background-color: $color-primary;
+    text-align: center;
+}
+
+.icon{
+    color: $font-color;
+    font-size: $default-font-size;
+    margin: 10px 20px;
+
+    &:hover{
+        color: darken($font-color, 15%);
+    }
+}

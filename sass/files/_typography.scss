@@ -1,0 +1,54 @@
+body{
+    font-size: $default-font-size;
+    color: $font-color;
+}
+
+.heading-primary{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    .heading-primary-top{
+        display: block;
+        font-size: 3rem;
+        font-family: 'Sacramento',cursive;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+
+    .heading-primary-bottom {
+        display: block;
+        font-size: 8rem;
+        font-family: 'Rochester',
+        cursive;
+        text-transform: uppercase;
+        letter-spacing: 3rem;
+
+    }
+
+    .heading-primary-last{
+        font-family: 'Sacramento',
+        cursive;
+        font-size: 5rem;
+    }
+}
+
+.heading-secondary{
+    font-family: 'Sacramento',
+    cursive;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: $large-margin;
+}
+
+.about-paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: $default-font-size;
+    text-align: justify;
+    color: $font-grey;
+    margin-top: $medium-margin;
+
+}
